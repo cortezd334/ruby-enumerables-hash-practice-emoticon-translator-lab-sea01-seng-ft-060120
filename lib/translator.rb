@@ -38,6 +38,7 @@ def get_english_meaning(emoticons, japanese_version)
   library.each do |emoticon_name, hash_value|
     if japanese_version == hash_value[:japanese]
       return emoticon_name
+    else "Sorry, that emoticon was not found"
     end
   end
 end
