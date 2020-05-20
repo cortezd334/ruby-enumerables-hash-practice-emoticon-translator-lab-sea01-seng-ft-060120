@@ -39,6 +39,6 @@ def get_english_meaning(emoticons, japanese_version)
     if japanese_version == hash_value[:japanese]
       return emoticon_name
     end
-    "Sorry, that emoticon was not found"
   end
+      "Sorry, that emoticon was not found"
 end
