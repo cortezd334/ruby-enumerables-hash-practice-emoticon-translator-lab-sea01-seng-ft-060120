@@ -24,8 +24,8 @@ library = load_library(emoticons)
     hash_value.each do |language, meaning|
     #binding.pry
       if english_version == library[emoticon_name][:english][meaning]
-        answer = library[emoticon_name][:japanese]
-        answer
+        return library[emoticon_name][:japanese]
+        #answer
       else
         "Sorry, that emoticon was not found"
         #binding.pry
