@@ -28,7 +28,7 @@ library = load_library(emoticons)
       end
         "Sorry, that emoticon was not found"
         #binding.pry
-      end
+      #end
     end
   end
 end
