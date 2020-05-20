@@ -28,7 +28,7 @@ library = load_library(emoticons)
       elsif english_version !== library[emoticon_name][:english][meaning]
         return "Sorry, that emoticon was not found"
         #binding.pry
-      #end
+      end
     end
   end
 end
