@@ -37,7 +37,7 @@ def get_english_meaning(emoticons, japanese_version)
   library = load_library(emoticons)
   library.each do |emoticon_name, hash_value|
     if japanese_version == hash_value[:japanese]
-      return hash_value[:english]
+      return emoticon_name
     end
   end
 end
